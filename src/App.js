@@ -1,14 +1,19 @@
 
-import './App.css';
+import './App.css'
+import ColorComp from './components/Color';
+import CounterComp from './components/Counter';
+import CompWithFragment from './components/WithFragmenets';
+import SuperSimpleComp from './components/Simple';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <h1>This is a Header</h1>
-      </header>
+    <div className='App-header'>
+      <ColorComp />
+      <CounterComp />
+      <CompWithFragment />
+      <SuperSimpleComp />
     </div>
-  );
-}
 
+  )
+}
 export default App;
